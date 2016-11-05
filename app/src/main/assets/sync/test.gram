@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar test;
+
+public <basicCmd> = <start> <question> <task> <end>;
+
+<start> = good morning| good afternoon ;
+<question> = at what time | when | when do we have;
+<task> = [the | a] (meeting| presentation);
+<end> = [ starts| finishes ];
